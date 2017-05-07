@@ -1,4 +1,5 @@
 @charset "utf-8";
+/*导航条样式*/
 .headerheight{
 	height: 60px;
 }
@@ -36,4 +37,27 @@
 }
 .headerContRight ul li img{
 	height: 20px;
+}
+
+/*侧边栏样式*/
+.whiteBg{
+	background-color: white;
+}
+
+/*主页content样式*/
+.contentTop{
+	margin-top: 15px;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color: white;
+}
+.mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-progress-bar
+{
+    background-color: white;
+    margin-top: -5px;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-group .mui-slider-item
+{
+    border-top: none;
+    border-bottom: none;
 }

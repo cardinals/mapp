@@ -1,4 +1,18 @@
 @charset "utf-8";
-.ContHeight{
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+.Common-ContHeight{
 	min-height: 200px;
 }
+.Common-webBgColor{
+	background-color: #fd4c5b;
+}
+.Common-fontColor{
+	color: white;
+}
+

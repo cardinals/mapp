@@ -1,0 +1,40 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"test.html",
+			"head.html",
+			"test2.html",
+			"css/commonStyle.css",
+			"css/indexStyle.css"
+		],
+		"refer": [
+			"test.html",
+			"head.html",
+			"test2.html"
+		]
+	},
+	"test.html": {
+		"resources": [
+			"test2.html",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"test2.html"
+		]
+	},
+	"test2.html": {
+		"resources": [
+			"css/mui.min.css",
+			"fonts/mui.ttf"
+		]
+	},
+	"head.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	}
+}

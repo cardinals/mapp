@@ -189,5 +189,59 @@
 				}
 			}
 		}
+	},
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css",
+					"test.html",
+					"head.html",
+					"test2.html",
+					"css/commonStyle.css",
+					"css/indexStyle.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"test.html": {
+				"resources": [
+					"test2.html",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"test2.html": {
+				"resources": [
+					"css/mui.min.css",
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"head.html": {
+				"resources": [
+					"fonts/mui.ttf",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"images/userPic.png",
+				"images/logo.png",
+				"images/historyIcon.png",
+				"images/searchIcon.png",
+				"js/mui.js",
+				"images/gameIcon.png",
+				"images/downloadIcon.png",
+				"css/mui.css"
+			]
+		}
 	}
 }

@@ -15,7 +15,7 @@
 
 	<body>
 		<!-- 主界面移动、菜单不动 -->
-		<div class="mui-off-canvas-wrap mui-draggable mui-slide-in">
+		<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable mui-slide-in">
 		  <!-- 菜单容器 -->
 		  <aside class="mui-off-canvas-left whiteBg" id="offCanvasSide">
 		    <div class="mui-scroll-wrapper">
@@ -33,7 +33,7 @@
 		      <div class="headerCont">
 		      	<div class="headerContLeft mui-col-sm-5 mui-col-xs-5">
 		      		<ul>
-		      			<li class="mui-col-sm-4 mui-col-xs-4 userPic"><img src="images/userPic.png"/></li>
+		      			<li class="mui-col-sm-4 mui-col-xs-4 userPic"><img id="userPic" src="images/userPic.png"/></li>
 		      			<li class="mui-col-sm-8 mui-col-xs-8 logo"><img src="images/logo.png"/></li>
 		      		</ul>
 		      	</div>
@@ -74,7 +74,11 @@
 					<div id="item1mobile" class="mui-slider-item mui-control-content">
 						<div id="scroll1" class="mui-scroll-wrapper">
 							<div class="mui-scroll">
-								<p>1111111</p>
+								<div class="Common-errorPic">
+									<img src="images/error01.png"/>
+									<button class="mui-btn-red loginBtn">登录</button>
+								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -129,11 +133,7 @@
 								    </div>
 								  </div>
 								<!--头条-->
-								<div class="mui-row">
-									<div class="rowContent">
-										
-									</div>
-							    </div>
+								
 							</div>
 						</div>
 					</div>

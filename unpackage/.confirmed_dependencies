@@ -8,7 +8,19 @@
 			"head.html",
 			"test2.html",
 			"css/commonStyle.css",
-			"css/indexStyle.css"
+			"css/indexStyle.css",
+			"js/indexjs.js",
+			"images/swiperImg02.png",
+			"images/userPic.png",
+			"images/swiperImg01.png",
+			"images/gameIcon.png",
+			"images/swiperImg04.png",
+			"images/swiperImg03.png",
+			"images/logo.png",
+			"js/jquery-3.2.0.min.js",
+			"images/historyIcon.png",
+			"images/searchIcon.png",
+			"images/downloadIcon.png"
 		],
 		"refer": [
 			"test.html",

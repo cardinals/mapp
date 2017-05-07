@@ -18,4 +18,11 @@ ul,ol{
 .Common-fontColor{
 	color: white;
 }
-
+.Common-errorPic{
+	margin: 25px auto;
+	width: 70%;
+	text-align: center;
+}
+.Common-errorPic img{
+	width: 100%;
+}

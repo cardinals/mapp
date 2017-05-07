@@ -9,6 +9,7 @@
 }
 .headerCont{
 	height: 60px;
+	margin-left: 10px;
 }
 .headerContLeft{
 	float: left;
@@ -62,7 +63,8 @@
     border-top: none;
     border-bottom: none;
 }
-.rowContent{
-	width: 95%;
-	margin:15px auto;
+.loginBtn{
+	margin-top: 15px;
+	width: 100px;
+	background-color: #fd4c5b;
 }

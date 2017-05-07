@@ -31,18 +31,18 @@
 		    <header class="mui-bar mui-bar-nav Common-webBgColor headerheight">
 		      <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left Common-fontColor headerIconLeft"  href="#offCanvasSide" ></a>
 		      <div class="headerCont">
-		      	<div class="headerContLeft">
+		      	<div class="headerContLeft mui-col-sm-5 mui-col-xs-5">
 		      		<ul>
-		      			<li><img src="images/userPic.png"/></li>
-		      			<li><img src="images/logo.png"/></li>
+		      			<li class="mui-col-sm-4 mui-col-xs-4 userPic"><img src="images/userPic.png"/></li>
+		      			<li class="mui-col-sm-8 mui-col-xs-8 logo"><img src="images/logo.png"/></li>
 		      		</ul>
 		      	</div>
-		      	<div class="headerContRight">
+		      	<div class="headerContRight mui-col-sm-6 mui-col-xs-6">
 		      		<ul>
-		      			<li><img src="images/gameIcon.png"/></li>
-		      			<li><img src="images/downloadIcon.png"/></li>
-		      			<li><img src="images/historyIcon.png"/></li>
-		      			<li><img src="images/searchIcon.png"/></li>
+		      			<li class="mui-col-sm-3 mui-col-xs-3"><img src="images/gameIcon.png"/></li>
+		      			<li class="mui-col-sm-3 mui-col-xs-3"><img src="images/downloadIcon.png"/></li>
+		      			<li class="mui-col-sm-3 mui-col-xs-3"><img src="images/historyIcon.png"/></li>
+		      			<li class="mui-col-sm-3 mui-col-xs-3"><img src="images/searchIcon.png"/></li>
 		      		</ul>
 		      	</div>
 		      </div>
@@ -129,7 +129,11 @@
 								    </div>
 								  </div>
 								<!--头条-->
-								<div ></div>
+								<div class="mui-row">
+									<div class="rowContent">
+										
+									</div>
+							    </div>
 							</div>
 						</div>
 					</div>
@@ -175,13 +179,22 @@
 				$('.mui-scroll-wrapper').scroll({
 					indicators: true //是否显示滚动条
 				});
-				var item2 = document.getElementById('item2mobile');
+				var item1 = document.getElementById('item1mobile');
 				var item3 = document.getElementById('item3mobile');
+				var item3 = document.getElementById('item4mobile');
+				var item3 = document.getElementById('item5mobile');
+				var item3 = document.getElementById('item6mobile');
 				document.getElementById('slider').addEventListener('slide', function(e) {
-					if (e.detail.slideNumber === 1) {
-
+					if (e.detail.slideNumber === 0) {
+						
 					} else if (e.detail.slideNumber === 2) {
-
+						
+					} else if (e.detail.slideNumber === 3) {
+						
+					} else if (e.detail.slideNumber === 4) {
+						
+					} else if (e.detail.slideNumber === 5) {
+						
 					}
 				});
 				

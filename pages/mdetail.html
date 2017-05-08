@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/commonStyle.css" />
+		<link rel="stylesheet" href="../css/mdetail.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav Common-webBgColor">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left Common-fontColor"></a>
+			<h1 id="pagetitle" class="mui-title Common-fontColor"></h1>
+		</header>
+		<div class="mui-content">
+			<div class="mui-row">
+			    <img id="videoimg" src=""/>
+			</div>
+			<div class="mui-row">
+				<div class="mui-card">
+					<div class="mui-card-header">
+						视频简介
+					</div>
+					<div class="mui-card-content">
+						<p style="word-wrap: break-word;width: 90%;margin: 0 auto;">&nbsp;&nbsp;&nbsp;&nbsp;88888555555555555555555555888888888888888888888888888888888</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			var tempdata=[{
+				videoid:'hot01',
+				imgurl:'../images/hot01.jpg'
+			},{
+				videoid:'hot02',
+				imgurl:'../images/hot02.jpg'
+			},{
+				videoid:'hot03',
+				imgurl:'../images/hot03.jpg'
+			},{
+				videoid:'hot04',
+				imgurl:'../images/hot04.jpg'
+			},{
+				videoid:'swiperImg01',
+				imgurl:'../images/swiperImg01.png'
+			},{
+				videoid:'swiperImg02',
+				imgurl:'../images/swiperImg02.png'
+			},{
+				videoid:'swiperImg03',
+				imgurl:'../images/swiperImg03.png'
+			},{
+				videoid:'swiperImg04',
+				imgurl:'../images/swiperImg04.png'
+			}]
+			mui.init({
+				swipeBack:true
+			});
+			mui.plusReady(function(){
+			    var tempWV=plus.webview.currentWebview();
+			    document.getElementById("pagetitle").innerHTML=tempWV.videoid;
+			    for(var i=0;i<tempdata.length;i++){
+			    	if(tempdata[i].videoid==tempWV.videoid){
+			    		document.getElementById("videoimg").src=tempdata[i].imgurl;
+			    	}
+			    }
+			});
+		</script>
+	</body>
+
+</html>

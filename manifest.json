@@ -213,9 +213,19 @@
 					"js/jquery-3.2.0.min.js",
 					"images/historyIcon.png",
 					"images/searchIcon.png",
-					"images/downloadIcon.png"
+					"images/downloadIcon.png",
+					"images/hot02.jpg",
+					"images/sechotIcon.png",
+					"images/hot04.jpg",
+					"images/hot03.jpg",
+					"images/hot01.jpg",
+					"images/error01.png",
+					"js/commonjs.js"
 				],
-				"refer": [],
+				"refer": [
+					"pages/detail.html",
+					"pages/mdetail.html"
+				],
 				"priority": 0
 			},
 			"test.html": {
@@ -238,6 +248,15 @@
 				"resources": [
 					"fonts/mui.ttf",
 					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"pages/mdetail.html": {
+				"resources": [
+					"css/mui.min.css",
+					"css/commonStyle.css",
+					"css/mdetail.css"
 				],
 				"refer": [],
 				"priority": 0

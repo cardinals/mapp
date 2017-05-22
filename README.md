@@ -6,4 +6,4 @@
 2.使用的是本地模拟数据
 
 mapp/images/app截图.png
-![Image text](https://raw.github.com/XFpzl/mapp/master/mapp/images/app截图.png)
+![Image text](https://raw.github.com/XFpzl/mapp/master/images/app截图.png)

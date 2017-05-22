@@ -1,5 +1,10 @@
 $(document).ready(function(){
 	mPageOpen(".myhref",'pages/mdetail.html','mdetail');
+	mPageOpen(".loginBtn",'pages/mlogin.html','mlogin');
+	mPageOpen("#mgame",'pages/mgame.html','mgame');
+	mPageOpen("#mdownload",'pages/mdownload.html','mdownload');
+	mPageOpen("#mhistory",'pages/mhistory.html','mhistory');
+	mPageOpen("#msearch",'pages/msearch.html','msearch');
 })
 
 

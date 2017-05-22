@@ -5,3 +5,5 @@
 
 2.使用的是本地模拟数据
 
+mapp/images/app截图.png
+![Image text](https://github.com/XFpzl/mapp/images/app截图.png)

@@ -5,6 +5,6 @@
 
 2.使用的是本地模拟数据
 
-3.app测试截图＜/br＞
+3.app测试截图
 
 ![Image text](https://raw.github.com/XFpzl/mapp/master/images/app截图.png)

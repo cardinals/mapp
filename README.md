@@ -7,4 +7,4 @@
 
 3.app测试截图
 
-![Image text](https://raw.github.com/XFpzl/mapp/master/images/app截图.png)
+![Image text](https://raw.github.com/XFpzl/mapp/master/images/appPic.png)

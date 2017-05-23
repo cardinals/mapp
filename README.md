@@ -10,10 +10,11 @@
      1.3 使用本地数据模拟测试功能完整
      
      1.4 app下载 （6M大小，没有任何权限要求）
-     
-         1.4.1  在本项目文件列表下的unpackage文件夹下的release文件里面下载app
-         
+     
+         1.4.1  在本项目文件列表下的unpackage文件夹下的release文件里面下载app   
+         
          1.4.2  通过百度云下载 http://pan.baidu.com/s/1cyAhMe
+         
 
 2.app测试截图
 
